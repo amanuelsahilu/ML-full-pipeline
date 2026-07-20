@@ -1,0 +1,78 @@
+2026-07-20 17:08:17,650 - src.logger - INFO - Initiating data ingestion
+2026-07-20 17:08:17,652 - src.logger - INFO - Read the data as a dataframe
+2026-07-20 17:08:17,652 - src.logger - INFO - Train and Test split initiated
+2026-07-20 17:08:17,658 - src.logger - INFO - Read train and test data completed
+2026-07-20 17:08:17,658 - src.logger - INFO - Obtaining preprocessing object
+2026-07-20 17:08:17,659 - src.logger - INFO - Categorical columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+2026-07-20 17:08:17,659 - src.logger - INFO - Numerical columns: ['writing_score', 'reading_score']
+2026-07-20 17:08:17,685 - src.logger - INFO - Saved preprocessing object.
+2026-07-20 17:08:17,686 - src.logger - INFO - Split training and test input data
+2026-07-20 17:08:17,686 - src.logger - INFO - Finding the best hyperparameters for RandomForestRegressor()
+2026-07-20 17:08:20,653 - src.logger - INFO - Training the model using the selected hyperparameters for RandomForestRegressor()
+2026-07-20 17:08:21,185 - src.logger - INFO - Prediction started for RandomForestRegressor(n_estimators=256)
+2026-07-20 17:08:21,234 - src.logger - INFO - Calculating the r2_score for the RandomForestRegressor(n_estimators=256)
+2026-07-20 17:08:21,235 - src.logger - INFO - Finding the best hyperparameters for DecisionTreeRegressor()
+2026-07-20 17:08:21,294 - src.logger - INFO - Training the model using the selected hyperparameters for DecisionTreeRegressor()
+2026-07-20 17:08:21,297 - src.logger - INFO - Prediction started for DecisionTreeRegressor()
+2026-07-20 17:08:21,297 - src.logger - INFO - Calculating the r2_score for the DecisionTreeRegressor()
+2026-07-20 17:08:21,298 - src.logger - INFO - Finding the best hyperparameters for GradientBoostingRegressor()
+2026-07-20 17:08:43,616 - src.logger - INFO - Training the model using the selected hyperparameters for GradientBoostingRegressor()
+2026-07-20 17:08:43,704 - src.logger - INFO - Prediction started for GradientBoostingRegressor(learning_rate=0.05, n_estimators=128, subsample=0.6)
+2026-07-20 17:08:43,707 - src.logger - INFO - Calculating the r2_score for the GradientBoostingRegressor(learning_rate=0.05, n_estimators=128, subsample=0.6)
+2026-07-20 17:08:43,708 - src.logger - INFO - Finding the best hyperparameters for LinearRegression()
+2026-07-20 17:08:43,758 - src.logger - INFO - Training the model using the selected hyperparameters for LinearRegression()
+2026-07-20 17:08:43,759 - src.logger - INFO - Prediction started for LinearRegression()
+2026-07-20 17:08:43,759 - src.logger - INFO - Calculating the r2_score for the LinearRegression()
+2026-07-20 17:08:43,760 - src.logger - INFO - Finding the best hyperparameters for XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=True, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)
+2026-07-20 17:08:46,686 - src.logger - INFO - Training the model using the selected hyperparameters for XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=True, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=None, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=None,
+             n_jobs=None, num_parallel_tree=None, ...)
+2026-07-20 17:08:46,800 - src.logger - INFO - Prediction started for XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=True, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=0.05, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=64,
+             n_jobs=None, num_parallel_tree=None, ...)
+2026-07-20 17:08:46,807 - src.logger - INFO - Calculating the r2_score for the XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=None, device=None, early_stopping_rounds=None,
+             enable_categorical=True, eval_metric=None, feature_types=None,
+             feature_weights=None, gamma=None, grow_policy=None,
+             importance_type=None, interaction_constraints=None,
+             learning_rate=0.05, max_bin=None, max_cat_threshold=None,
+             max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+             max_leaves=None, min_child_weight=None, missing=nan,
+             monotone_constraints=None, multi_strategy=None, n_estimators=64,
+             n_jobs=None, num_parallel_tree=None, ...)
+2026-07-20 17:08:46,808 - src.logger - INFO - Finding the best hyperparameters for CatBoostRegressor(loss_function='RMSE', verbose=False)
+2026-07-20 17:08:52,599 - src.logger - INFO - Training the model using the selected hyperparameters for CatBoostRegressor(loss_function='RMSE', verbose=False)
+2026-07-20 17:08:52,670 - src.logger - INFO - Prediction started for CatBoostRegressor(depth=6, iterations=100, learning_rate=0.1, loss_function='RMSE', verbose=False)
+2026-07-20 17:08:52,672 - src.logger - INFO - Calculating the r2_score for the CatBoostRegressor(depth=6, iterations=100, learning_rate=0.1, loss_function='RMSE', verbose=False)
+2026-07-20 17:08:52,674 - src.logger - INFO - Finding the best hyperparameters for AdaBoostRegressor()
+2026-07-20 17:09:01,134 - src.logger - INFO - Training the model using the selected hyperparameters for AdaBoostRegressor()
+2026-07-20 17:09:01,447 - src.logger - INFO - Prediction started for AdaBoostRegressor(learning_rate=0.5, n_estimators=256)
+2026-07-20 17:09:01,491 - src.logger - INFO - Calculating the r2_score for the AdaBoostRegressor(learning_rate=0.5, n_estimators=256)
+2026-07-20 17:09:01,493 - src.logger - INFO - Best found model on both training and testing dataset
