@@ -1,3 +1,0 @@
-2026-07-20 15:29:21,821 - src.logger - INFO - Initiating data ingestion
-2026-07-20 15:29:21,825 - src.logger - INFO - Read the data as a dataframe
-2026-07-20 15:29:21,825 - src.logger - INFO - Train and Test split initiated

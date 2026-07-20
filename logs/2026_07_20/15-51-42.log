@@ -1,8 +1,0 @@
-2026-07-20 15:51:42,762 - src.logger - INFO - Initiating data ingestion
-2026-07-20 15:51:42,768 - src.logger - INFO - Read the data as a dataframe
-2026-07-20 15:51:42,769 - src.logger - INFO - Train and Test split initiated
-2026-07-20 15:51:42,777 - root - INFO - Read train and test data completed
-2026-07-20 15:51:42,777 - root - INFO - Obtaining preprocessing object
-2026-07-20 15:51:42,777 - root - INFO - Categorical columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
-2026-07-20 15:51:42,778 - root - INFO - Numerical columns: ['writing_score', 'reading_score']
-2026-07-20 15:51:42,807 - root - INFO - Saved preprocessing object.
